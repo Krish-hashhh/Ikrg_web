@@ -1,0 +1,26 @@
+.sponsors {
+  padding: 6rem 1rem;
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+}
+.sponsors h2 {
+  font-size: 2.5rem;
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 2rem;
+}
+.sponsor-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.sponsor-logo {
+  background: #333;
+  padding: 2rem;
+  border-radius: 1rem;
+  min-width: 120px;
+  text-align: center;
+  color: #ccc;
+  font-weight: bold;
+}
