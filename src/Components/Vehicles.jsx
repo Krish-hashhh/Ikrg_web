@@ -1,8 +1,8 @@
 import React from 'react';
 import './Vehicles.css';
-import v1 from '../Assets/v1.jpeg';
-import v2 from '../Assets/v2.jpeg';
-import v3 from '../Assets/v3.jpeg';
+import combustion from '../Assets/combustion.jpg';
+import solar from '../Assets/solar.jpg';
+import electric from '../Assets/electric.jpg';
 
 export default function Vehicles() {
   return (
@@ -15,10 +15,10 @@ export default function Vehicles() {
               <img
                 src={
                   num === 1
-                    ? v1
+                    ? combustion
                     : num === 2
-                      ? v2
-                      : v3
+                      ? solar
+                      : electric
                 }></img>
             </div>
             <h3>Vehicle {num}</h3>

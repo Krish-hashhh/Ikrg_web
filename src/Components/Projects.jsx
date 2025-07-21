@@ -21,8 +21,17 @@ export default function Projects() {
                       : p3
                 }></img>
             </div>
-            <h3>Project {num}</h3>
-            <p>Details about the project {num}.</p>
+            {
+              <p>
+                {
+                  num === 1
+                    ? "COMBUSTION"
+                    : num === 2
+                      ? "SOLAR"
+                      : "ELECTRIC"
+                }
+              </p>
+            }
           </div>
         ))}
       </div>
