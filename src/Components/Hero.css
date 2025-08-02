@@ -10,7 +10,7 @@
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 10;
 }
-.hero .background-image img {
+.hero .background-image video {
   position: absolute;
   inset: 0;
   width: 100%;

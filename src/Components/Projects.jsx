@@ -7,7 +7,7 @@ import p3 from '../Assets/p3.jpeg';
 export default function Projects() {
   return (
     <section className="projects" id="projects">
-      <h2>Projects</h2>
+      <h2>Competitions</h2>
       <div className="project-grid">
         {[1, 2, 3].map(num => (
           <div key={num} className="project-card">
@@ -25,10 +25,10 @@ export default function Projects() {
               <p>
                 {
                   num === 1
-                    ? "COMBUSTION"
+                    ? "NASA-HERC"
                     : num === 2
-                      ? "SOLAR"
-                      : "ELECTRIC"
+                      ? "IKR 2024"
+                      : "FKDC 2025"
                 }
               </p>
             }

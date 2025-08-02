@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Hero.css';
-import BG from '../Assets/image.png';
+import videoBG from '../Assets/BGV.mp4';
 
 
   const phrases = [
@@ -70,9 +70,12 @@ useEffect(() => {
     <section id="home" className="hero">
       <div className="overlay"></div>
       <div className="background-image">
-        <img
-          src={BG}
-          alt="Racicar"
+        <video
+          src={videoBG}
+          autoPlay
+          loop
+          muted
+          playsInline 
         />
       </div>
       <div className="hero-content">
