@@ -1,8 +1,13 @@
 import React from 'react';
 import './Team.css';
 import pmImage from '../Assets/pm.jpg'; 
-
-
+import kavan from '../Assets/kavan.jpeg';
+import manan from '../Assets/manan.jpeg';
+import ritesh from '../Assets/ritesh.jpeg';
+import ans from '../Assets/ans.jpeg';
+import ashray from '../Assets/ashray.jpeg';
+import kavin from '../Assets/kavin.jpeg';
+import krish from '../Assets/krish.jpeg';
 
 export default function Team() {
   const teamMembers = [
@@ -16,51 +21,51 @@ export default function Team() {
     {
       name: 'Kavan Lad',
       role: 'CTO',
-      linkedin: 'https://linkedin.com/in/nisha',
+      linkedin: 'https://www.linkedin.com/in/kavan-lad-ab77a5291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       email: 'mailto:nisha@bits-pilani.ac.in',
-      image:'',
+      image:kavan,
     },
     {
       name: 'Manan Gupta',
       role: 'COO',
-      linkedin: 'https://linkedin.com/in/rohan',
+      linkedin: 'https://www.linkedin.com/in/manan-gupta-473938319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       email: 'mailto:rohan@bits-pilani.ac.in',
-      image:'',
+      image:manan,
     },
     {
       name: 'Ritesh',
       role: 'Mechanical Lead',
-      linkedin: 'https://linkedin.com/in/sneha',
+      linkedin: 'https://www.linkedin.com/in/ritesh-nallamalli-77497a281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
       email: 'mailto:sneha@bits-pilani.ac.in',
-      image:'',
+      image:ritesh,
     },
     {
       name: 'ANS.S',
       role: 'Mechanical Lead',
-      linkedin: 'https://linkedin.com/in/kunal',
+      linkedin: 'https://www.linkedin.com/in/nageswarasatyashirdinadh-avupati-824612336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       email: 'mailto:kunal@bits-pilani.ac.in',
-      image:'',
+      image:ans,
     },
     {
       name: 'Kavin',
       role: 'Electrical Lead',
-      linkedin: 'https://linkedin.com/in/tanya',
+      linkedin: 'https://www.linkedin.com/in/kavin-s-5196b9356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       email: 'mailto:tanya@bits-pilani.ac.in',
-      image:'',
+      image:kavin,
     },
     {
       name: 'Ashray',
       role: 'Sponsorship Lead',
       linkedin: 'https://linkedin.com/in/tanya',
       email: 'mailto:tanya@bits-pilani.ac.in',
-      image:'',
+      image:ashray,
     },
     {
       name: 'Krish Vora',
       role: 'CMO',
-      linkedin: 'https://linkedin.com/in/tanya',
+      linkedin: 'https://www.linkedin.com/in/krish-vora-59066b29b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       email: 'mailto:tanya@bits-pilani.ac.in',
-      image:'',
+      image:krish,
     },
   ];
 
