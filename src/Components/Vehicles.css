@@ -37,4 +37,42 @@
   height: 100%;
   object-fit: cover;
   border-radius: 0.5rem;
+  cursor: pointer;
+}
+.vehicle-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.vehicle-popup-content {
+  background: #222;
+  padding: 20px;
+  border-radius: 1rem;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.vehicle-popup-content img {
+  width: 100%;
+  height: 280px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.close-button {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  font-size: 1.3rem;
+  cursor: pointer;
 }

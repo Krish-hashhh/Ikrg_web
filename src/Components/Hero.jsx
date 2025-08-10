@@ -98,7 +98,7 @@ useEffect(() => {
           </div>
         </div>
 
-        <a href="#about">DISCOVER OUR TEAM</a>
+        <a href="#team">DISCOVER OUR TEAM</a>
       </div>
   
     </section>
