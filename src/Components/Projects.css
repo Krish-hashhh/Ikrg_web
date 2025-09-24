@@ -15,7 +15,7 @@
   gap: 2rem;
   max-width: 960px;
   margin: auto;
-  background-color: white;
+  background-color: #222;
   padding: 1.5rem;
   border-radius: 1rem;
   
@@ -54,4 +54,13 @@
   object-fit: cover;
   border-radius: 0.5rem;
   filter: brightness(60%);
+}
+@media (max-width: 400px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+  .project-card p {
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+  }
 }
