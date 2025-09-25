@@ -11,7 +11,7 @@ import videoBG from '../Assets/BGV.mp4';
 
 export default function Hero() {
   const calculateTimeLeft = () => {
-    const raceDate = new Date("2025-10-01T09:00:00");
+    const raceDate = new Date("2026-02-20T09:00:00");
     const difference = raceDate - new Date();
     let timeLeft = {};
 
