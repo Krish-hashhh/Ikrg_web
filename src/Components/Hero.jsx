@@ -3,7 +3,7 @@ import './Hero.css';
 import videoBG from '../Assets/BGV.mp4';
 
 
-  const phrases = [
+const phrases = [
   'Electric Innovation',
   'Speed. Precision. Power.',
   'Driven by Passion',
@@ -41,29 +41,29 @@ export default function Hero() {
 
 
 
-const [displayText, setDisplayText] = useState('');
-const [index, setIndex] = useState(0);
+  const [displayText, setDisplayText] = useState('');
+  const [index, setIndex] = useState(0);
 
-useEffect(() => {
-  const timeout = setTimeout(() => {
-    setDisplayText('');
-    let i = 0;
-    const type = () => {
-      if (i <= phrases[index].length) {
-        setDisplayText(phrases[index].substring(0, i));
-        i++;
-        setTimeout(type, 80);
-      } else {
-        setTimeout(() => {
-          setIndex((index + 1) % phrases.length);
-        }, 2000);
-      }
-    };
-    type();
-  }, 200);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setDisplayText('');
+      let i = 0;
+      const type = () => {
+        if (i <= phrases[index].length) {
+          setDisplayText(phrases[index].substring(0, i));
+          i++;
+          setTimeout(type, 80);
+        } else {
+          setTimeout(() => {
+            setIndex((index + 1) % phrases.length);
+          }, 2000);
+        }
+      };
+      type();
+    }, 200);
 
-  return () => clearTimeout(timeout);
-}, [index]);
+    return () => clearTimeout(timeout);
+  }, [index]);
 
 
   return (
@@ -75,7 +75,7 @@ useEffect(() => {
           autoPlay
           loop
           muted
-          playsInline 
+          playsInline
         />
       </div>
       <div className="hero-content">
@@ -100,7 +100,7 @@ useEffect(() => {
 
         <a href="#team">DISCOVER OUR TEAM</a>
       </div>
-  
+
     </section>
   );
 }
