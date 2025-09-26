@@ -11,6 +11,10 @@ export default function Contact() {
         <textarea placeholder="Your Message" rows="5" required></textarea>
         <button type="submit">Send Message</button>
       </form>
+
+      <a href="https://forms.gle/WKMGsuCuESGqUBy39" target='_blank'>
+        <button>Register</button>
+      </a>
     </section>
   );
 }
